@@ -1,0 +1,9 @@
+logs/
+*.log
+*.Transcript.txt
+.vscode/
+Config/*.json
+!Config/examples/*.template.json
+*.pfx
+*.key
+*.pem
