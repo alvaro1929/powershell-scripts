@@ -1,3 +1,27 @@
+
+Incluye archivos nuevos, modificados y eliminados.
+git add -A
+
+
+
+Guardar cambios localmente
+git commit -m "mensaje claro del cambio"
+
+
+Traer lo último de GitHub antes de subir
+git pull --rebase origin main
+
+
+Subir tus cambios a GitHub
+git push
+
+
+
+
+
+
+
+
 Git & VS Code – Chuleta rápida (Álvaro)
 0) Configuración inicial (una sola vez por equipo)
 # Identidad
