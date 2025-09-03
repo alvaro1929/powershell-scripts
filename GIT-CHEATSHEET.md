@@ -1,19 +1,18 @@
 
-Incluye archivos nuevos, modificados y eliminados.
-git add -A
+Incluye archivos nuevos, modificados y eliminados.   :    git add -A
 
 
 
-Guardar cambios localmente
-git commit -m "mensaje claro del cambio"
+
+Guardar cambios localmente   :    git commit -m "mensaje claro del cambio"
 
 
-Traer lo último de GitHub antes de subir
-git pull --rebase origin main
+Traer lo último de GitHub antes de subir    :    git pull --rebase origin main
 
 
-Subir tus cambios a GitHub
-git push
+
+Subir tus cambios a GitHub    :    git push
+
 
 
 
