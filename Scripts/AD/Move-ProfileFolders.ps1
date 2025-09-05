@@ -168,8 +168,8 @@ if ($CanWriteHive) { reg unload "HKU\$HiveName" | Out-Null }
 
 # --- Salida final ---
 if ($left.Count -gt 0){
-  Write-Host "`n⚠ Quedan elementos en el origen (probablemente abiertos o sin permisos). Reintenta más tarde:" -ForegroundColor Yellow
+  Write-Host "Quedan elementos en el origen (probablemente abiertos o sin permisos). Reintenta más tarde:" -ForegroundColor Yellow
   $left | Format-Table -AutoSize
 } else {
-  Write-Host "`n✅ Todo movido a $DestProfile y ubicaciones preparadas. Se fijarán al próximo logon del usuario." -ForegroundColor Green
+  Write-Host "Todo movido a $DestProfile y ubicaciones preparadas. Se fijarán al próximo logon del usuario." -ForegroundColor Green
 }
