@@ -10,8 +10,7 @@
     Requiere: PowerShell en Windows con .NET (GUI). En Server Core, usa la versión sin GUI.
 
 
-    Lanzar con: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    C:\Scripts\Cleanup-WindowsTemp.GUI.ps1
+    Lanzar con: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; C:\Scripts\Cleanup-WindowsTemp.GUI.ps1
 
 
 #>
