@@ -151,7 +151,7 @@ try {
 
 #--- Construir ventana ---------------------------------------------------------
 $form             = New-Object System.Windows.Forms.Form
-$form.Text        = "Limpieza de Windows (BG Tec)"
+$form.Text        = "Limpieza de Windows (Alvaro Nieto)"
 $form.Size        = New-Object System.Drawing.Size(430, 360)
 $form.StartPosition = "CenterScreen"
 $form.TopMost     = $true
